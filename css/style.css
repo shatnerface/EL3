@@ -1,0 +1,122 @@
+
+
+/* navbar */
+
+.navbar {
+	background-color: #fff;
+}
+
+.main-nav {
+	float: right;
+}
+
+
+
+
+/* main */
+
+body {
+	color: #d827e8;
+	background-color: #fff;
+}
+
+a {
+	color: #0ab9ab;
+}
+
+a:hover {
+	color: #000;
+}
+
+
+
+/* jumbotron */
+
+.jumbotron {
+	background-image: url(http://www.hdwallpaperup.com/wp-content/uploads/2015/02/Gray-Landscape.jpg);
+	width: 100%;
+}
+
+.jumbotron h1 {
+	padding-top: 50px;
+	color: #0093f1;
+}
+
+
+/*	jumbostuff */
+
+.jumbostuff {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+
+/* show */
+
+.darkBG {
+	background: #fff;
+	padding: 10px;
+}
+
+.darkerBG {
+	background: #666;
+}
+
+
+
+/* demonstrate and fine print */
+
+.demonstrate {
+	color: #333;
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+	color: #000;
+	padding: 10px;
+}
+
+p.fine {
+	font-size: 10pt;
+	color: #939598;
+}
+
+
+
+/* Footer */
+
+nav#footer{
+	background: #222222;
+	color: #ffffff;
+	padding: 20px 0 15px 0;
+}
+
+nav#footer .fnav{ vertical-align: middle;}
+ul.footer-social li{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+nav#footer p{
+	font-size: 12px;
+	margin-top: 10px;
+	color: #999;
+}
+
+#footer i.fa {
+	height: 30px;
+	width: 30px;
+	border: 2px solid #8c8c8c;
+	font-size: 20px;
+	padding: 4px 5px;
+	border-radius: 50%;
+	color: #8c8c8c;
+	transition: all 0.6s;
+}
+
+#footer i.fa:hover{
+	background: #0093f1;
+	border-color: #0093f1;
+	color: #fff;
+

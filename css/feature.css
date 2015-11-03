@@ -4,6 +4,39 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+/* navbar */
+
+.navbar-right {
+	text-align: center;
+}
+
+.navbar .nav > li > a, .navbar .nav > li {
+	color: #666;
+	text-shadow: none;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li { 
+	color: #0093f1;                      
+	text-shadow: none;
+}
+
+.navbar .nav li a:hover {
+	color: #0093f1;
+}
+
+.dropdown-toggle {
+	text-transform: uppercase;
+}
+
+/*! 
+.dropdown-menu {
+	text-align: center;
+}
+*/
+
+
+
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -15,6 +48,9 @@ p {
 ul {
 	text-align: left;
 }
+
+
+
 
 .portfolio-item {
     margin-bottom: 25px;

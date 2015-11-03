@@ -2,13 +2,33 @@
 
 /* navbar */
 
-.navbar {
-	background-color: #fff;
+.navbar-right {
+	text-align: center;
 }
 
-.main-nav {
-	float: right;
+.navbar .nav > li > a, .navbar .nav > li {
+	color: #666;
+	text-shadow: none;
 }
+
+.navbar .nav > li > a:hover, .navbar .nav > li { 
+	color: #0093f1;                      
+	text-shadow: none;
+}
+
+.navbar .nav li a:hover {
+	color: #0093f1;
+}
+
+.dropdown-toggle {
+	text-transform: uppercase;
+}
+
+/*! 
+.dropdown-menu {
+	text-align: center;
+}
+*/
 
 
 

@@ -36,8 +36,12 @@
 /* main */
 
 body {
-	color: #d827e8;
+	color: #999;
 	background-color: #fff;
+}
+
+h2 {
+	color: #0093f1;
 }
 
 a {
@@ -53,14 +57,46 @@ a:hover {
 /* jumbotron */
 
 .jumbotron {
-	background-image: url(http://www.hdwallpaperup.com/wp-content/uploads/2015/02/Gray-Landscape.jpg);
+	background-image: url(http://el3.co/image/jumbotron1b.jpg);
+	background-size: cover;
 	width: 100%;
 }
 
 .jumbotron h1 {
-	padding-top: 50px;
-	color: #0093f1;
+/*	padding-top: 50px;   */
+	color: #fff;
 }
+
+
+/* horizontal rule around text */
+.jumbotron h5 {
+    overflow: hidden;
+    text-align: center;
+}
+
+.jumbotron h5:before, h5:after {
+	background-color: #666;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.jumbotron h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.jumbotron h5:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/* horizontal rule around text end */
+
+
 
 
 /*	jumbostuff */
@@ -71,17 +107,34 @@ a:hover {
 }
 
 
-/* show */
+/* main links */
 
 .darkBG {
 	background: #fff;
-	padding: 10px;
+	padding: 15px;
 }
 
 .darkerBG {
 	background: #666;
 }
 
+.caption p {
+	font-size: 28px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    padding: 0 100px 0 100px;
+}
+ 
+.caption p:hover {
+	color: yellow;
+	text-shadow: 3px 3px 0px #333;
+/*	color: #000;
+	font-size: 26pt;
+	transition: .6s;  */
+}
 
 
 /* demonstrate and fine print */

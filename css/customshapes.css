@@ -5,8 +5,7 @@
  */
 
 
-/* navbar */
-
+/* Navbar */
 .navbar-right {
 	text-align: center;
 }
@@ -39,6 +38,7 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #ebebeb;
 }
 
 p {
@@ -50,11 +50,12 @@ ul {
 }
 
 
-
-
-.portfolio-item {
-    margin-bottom: 25px;
+.page-header {
+	    background-color: #ebebeb;
+	    border-color: #999;
 }
+
+
 
 h1 {	
 	color: #0093f1;

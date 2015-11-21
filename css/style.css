@@ -57,7 +57,7 @@ a:hover {
 /* jumbotron */
 
 .jumbotron {
-	background-image: url(http://el3.co/image/jumbotron1b.jpg);
+	background-image: url(http://el3.co/image/jumbotron1a.jpg);
 	background-size: cover;
 	width: 100%;
 }
@@ -107,16 +107,96 @@ a:hover {
 }
 
 
-/* main links */
+/* heading */
+
+.page-header {
+	color: #0093f1;
+    border-color: #bababa;
+    text-align: left;
+}
+
+
+/* main link images */
 
 .darkBG {
 	background: #fff;
-	padding: 15px;
+	padding: 30px;
 }
 
-.darkerBG {
-	background: #666;
+#link-altered {
+  margin:0 auto;
+  width:250px;
+  height:209px;
+  transition: background-image .4s ease-in-out;
+  background-image:url(../image/home-alteredphotos.jpg);
 }
+
+#link-altered:hover {
+  background-image:url(../image/home-alteredphotos-h.jpg);
+}
+
+#link-logos {
+  margin:0 auto;
+  width:250px;
+  height:209px;
+  transition: background-image .4s ease-in-out;
+  background-image:url(../image/home-logos.jpg);
+}
+
+#link-logos:hover {
+  background-image:url(../image/home-logos-h.jpg);
+}
+
+#link-illustration {
+  margin:0 auto;
+  width:250px;
+  height:209px;
+  transition: background-image .4s ease-in-out;
+  background-image:url(../image/home-illustration.jpg);
+}
+
+#link-illustration:hover {
+  background-image:url(../image/home-illustration-h.jpg);
+}
+
+#link-photography {
+  margin:0 auto;
+  width:250px;
+  height:209px;
+  transition: background-image .4s ease-in-out;
+  background-image:url(../image/home-photography.jpg);
+}
+
+#link-photography:hover {
+  background-image:url(../image/home-photography-h.jpg);
+}
+
+#link-shapes {
+  margin:0 auto;
+  width:250px;
+  height:209px;
+  transition: background-image .4s ease-in-out;
+  background-image:url(../image/home-customshapes.jpg);
+}
+
+#link-shapes:hover {
+  background-image:url(../image/home-customshapes-h.jpg);
+}
+
+#link-menus {
+  margin:0 auto;
+  width:250px;
+  height:209px;
+  transition: background-image .4s ease-in-out;
+  background-image:url(../image/home-menus.jpg);
+}
+
+#link-menus:hover {
+  background-image:url(../image/home-menus-h.jpg);
+}
+
+
+/* When I tried to do the text over the images
 
 .caption p {
 	font-size: 28px;
@@ -130,11 +210,11 @@ a:hover {
  
 .caption p:hover {
 	color: yellow;
-	text-shadow: 3px 3px 0px #333;
+	text-shadow: 3px 3px 0px #333; */
 /*	color: #000;
 	font-size: 26pt;
-	transition: .6s;  */
-}
+	transition: .6s;  
+}      */
 
 
 /* demonstrate and fine print */

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Ernest Latham">
 
     <title>Home of EL3 v3001</title>
 
@@ -22,6 +22,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
+    <!-- Headrom JS -->
+    <script type="text/javascript" src="js/headroom.min.js"></script>
+
     <!-- MINE -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
 
@@ -35,65 +38,64 @@
   <body>
 
     <!-- Fixed navbar -->
-    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <header id="header" class="header fixed">
+      <div class="wrap">
+        <div class="clearfix" style="width:100%;">
+          <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
 
-      <div class="container">
+            <div class="container">
 
-        <div class="navbar-header">
-          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+              <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
 
-          <a class="navbar-brand" href="#">
-            <img src="image/el3main-clean-24px.png" alt="EL3 Logo">
-          </a>
+                <a class="navbar-brand" href="#">
+                  <img src="image/el3main-clean-24px.png" alt="EL3 Logo">
+                </a>
+              </div>
 
-        </div>
-
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-
-          <ul class="nav navbar-nav navbar-right">
-
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">portfolio</a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Altered Photos</a></li>
-                    <li><a href="#">Logos</a></li>
-                    <li><a href="#">Graphic Illustration</a></li>
-                    <li><a href="#">Photography</a></li>
-                    <li><a href="#">Custom Shapes</a></li>
-                    <li><a href="#">Menus</a></li>
+              <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">portfolio</a>
+                      <ul class="dropdown-menu">
+                          <li><a href="http://www.el3.co/altered.html">Altered Photos</a></li>
+                          <li><a href="http://www.el3.co/logo.html">Logos</a></li>
+                          <li><a href="http://www.el3.co/illustration.html">Graphic Illustration</a></li>
+                          <li><a href="http://www.el3.co/photo.html">Photography</a></li>
+                          <li><a href="http://www.el3.co/customshapes.html">Custom Shapes</a></li>
+                          <li><a href="http://www.el3.co/menus.html">Menus</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">info</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.el3.co/about.html">About</a></li>
+                        <li><a href="http://www.el3.co/contact.html">Contact</a></li>
+                        <li><a href="http://www.el3.co/art.html">Other Art</a></li>
+                        <li><a href="http://www.el3.co/blog.html">Blog</a></li>
+                    </ul>
+                  </li>
                 </ul>
-            </li>
-            
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">information</a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Other Art</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </li>
+              </div><!--/.nav-collapse -->
 
-          </ul>
-
-        </div><!--/.nav-collapse -->
-
+            </div>
+          </nav>
+        </header>
       </div>
-    </nav>
-
+    </div>
 
     <div class="jumbotron">
       <div class="jumbostuff">
-        <br>
-        <h5>Small Words</h5>
-        <h1>Big Words</h1>
-        <h2>Medium Words</h2>
-        <h5>Small Words</h5>
+        <br><br><br>
+        <h5>Estd. 1982</h5>
+        <h1>Design of Graphics</h1>
+        <h2>and other artistic endeavors</h2>
+        <h5>Till 20XX</h5>
       </div>
     </div><!-- /.jumbotron -->
 
@@ -113,22 +115,22 @@
 	<div class="demonstrate">
 		<div class="row">
       <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <div id="link-altered"></div>
+        <a href="http://www.el3.co/altered.html"><div id="link-altered"></div></a>
       </div>
       <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <div id="link-logos"></div>
+        <a href="http://www.el3.co/logo.html"><div id="link-logos"></div></a>
       </div>
       <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <div id="link-illustration"></div>
+        <a href="http://www.el3.co/illustration.html"><div id="link-illustration"></div></a>
       </div>
       <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <div id="link-photography"></div>
+        <a href="http://www.el3.co/photo.html"><div id="link-photography"></div></a>
       </div>
       <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <div id="link-shapes"></div>
+        <a href="http://www.el3.co/customshapes.html"><div id="link-shapes"></div></a>
       </div>
       <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <div id="link-menus"></div>
+        <a href="http://www.el3.co/menus.html"><div id="link-menus"></div></a>
       </div>
 		</div>
 	</div>	
@@ -141,7 +143,7 @@
   <nav id="footer">
       <div class="container">
           <div class="pull-left fnav">
-              <p>©2015 Ernest Latham.</a></p>
+              <p>©2016 Ernest Latham.</a></p>
           </div>
           <div class="pull-right fnav">
               <ul class="footer-social">
@@ -159,14 +161,31 @@
   </nav>
 
 
+  <script type="text/javascript">
+  var header = document.querySelector("#header");
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.1.11.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug  testin
-    <script src="/js/ie10-viewport-bug-workaround.js"></script>-->
+  new Headroom(header, {
+    tolerance: {
+      down : 2,
+      up : 5
+    },
+    offset : 100,
+    classes: {
+      initial: "slide",
+      pinned: "slide--reset",
+      unpinned: "slide--up"
+    }
+  }).init();
+  </script>
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.1.11.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug  testin
+  <script src="/js/ie10-viewport-bug-workaround.js"></script>-->
 
 
 

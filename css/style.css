@@ -1,5 +1,13 @@
 
 
+/* general */
+
+h4 {
+	font-size: 18pt;
+	color: #999999;
+}
+
+
 /* navbar */
 
 .navbar-right {
@@ -12,19 +20,19 @@
 }
 
 .navbar .nav > li > a:hover, .navbar .nav > li { 
-	color: #0093f1;                      
+	color: #0099ff;                      
 	text-shadow: none;
 }
 
 .navbar .nav li a:hover {
-	color: #0093f1;
+	color: #0099ff;
 }
 
 .dropdown-toggle {
 	text-transform: uppercase;
 }
 
-/*! 
+/* 
 .dropdown-menu {
 	text-align: center;
 }
@@ -41,7 +49,7 @@ body {
 }
 
 h2 {
-	color: #0093f1;
+	color: #0099ff;
 }
 
 a {
@@ -57,7 +65,7 @@ a:hover {
 /* jumbotron */
 
 .jumbotron {
-	background-image: url(http://el3.co/image/jumbotron1a.jpg);
+	background-image: url(http://el3.co/image/jumbotron2.jpg);
 	background-size: cover;
 	width: 100%;
 }
@@ -107,10 +115,35 @@ a:hover {
 }
 
 
+/*  jumbo for contact */
+
+.jumbomap {
+	background-image: url(http://el3.co/image/jumbotron-contact-b.jpg);
+	background-size: cover;
+	width: 100%;
+
+}
+
+.jumbomap h1 {
+	color:#ffffff;
+	font-size: 50pt;
+	text-shadow: 2px 2px 15px #000000;
+	text-align: center;
+	margin: 10px;
+}
+
+.jumbomap h3 {
+	color: #ffffff;
+	text-shadow: 1px 1px 15px #000000;
+	text-align: center;
+}
+
+
+
 /* heading */
 
 .page-header {
-	color: #0093f1;
+	color: #0099ff;
     border-color: #bababa;
     text-align: left;
 }
@@ -128,11 +161,11 @@ a:hover {
   width:250px;
   height:209px;
   transition: background-image .4s ease-in-out;
-  background-image:url(../image/home-alteredphotos.jpg);
+  background-image:url(../image/home/alteredphotos.jpg);
 }
 
 #link-altered:hover {
-  background-image:url(../image/home-alteredphotos-h.jpg);
+  background-image:url(../image/home/alteredphotos-h.jpg);
 }
 
 #link-logos {
@@ -140,11 +173,11 @@ a:hover {
   width:250px;
   height:209px;
   transition: background-image .4s ease-in-out;
-  background-image:url(../image/home-logos.jpg);
+  background-image:url(../image/home/logos.jpg);
 }
 
 #link-logos:hover {
-  background-image:url(../image/home-logos-h.jpg);
+  background-image:url(../image/home/logos-h.jpg);
 }
 
 #link-illustration {
@@ -152,11 +185,11 @@ a:hover {
   width:250px;
   height:209px;
   transition: background-image .4s ease-in-out;
-  background-image:url(../image/home-illustration.jpg);
+  background-image:url(../image/home/illustration.jpg);
 }
 
 #link-illustration:hover {
-  background-image:url(../image/home-illustration-h.jpg);
+  background-image:url(../image/home/illustration-h.jpg);
 }
 
 #link-photography {
@@ -164,11 +197,11 @@ a:hover {
   width:250px;
   height:209px;
   transition: background-image .4s ease-in-out;
-  background-image:url(../image/home-photography.jpg);
+  background-image:url(../image/home/photography.jpg);
 }
 
 #link-photography:hover {
-  background-image:url(../image/home-photography-h.jpg);
+  background-image:url(../image/home/photography-h.jpg);
 }
 
 #link-shapes {
@@ -176,11 +209,11 @@ a:hover {
   width:250px;
   height:209px;
   transition: background-image .4s ease-in-out;
-  background-image:url(../image/home-customshapes.jpg);
+  background-image:url(../image/home/customshapes.jpg);
 }
 
 #link-shapes:hover {
-  background-image:url(../image/home-customshapes-h.jpg);
+  background-image:url(../image/home/customshapes-h.jpg);
 }
 
 #link-menus {
@@ -188,11 +221,11 @@ a:hover {
   width:250px;
   height:209px;
   transition: background-image .4s ease-in-out;
-  background-image:url(../image/home-menus.jpg);
+  background-image:url(../image/home/menus.jpg);
 }
 
 #link-menus:hover {
-  background-image:url(../image/home-menus-h.jpg);
+  background-image:url(../image/home/menus-h.jpg);
 }
 
 
@@ -269,7 +302,54 @@ nav#footer p{
 }
 
 #footer i.fa:hover{
-	background: #0093f1;
-	border-color: #0093f1;
+	background: #0099ff;
+	border-color: #0099ff;
 	color: #fff;
+}
+
+
+
+/** disappearing nav **/
+
+#header {
+  display: block;
+  width: 100%;
+  height: 71px;
+  background: white;
+  /* remove shadow 
+  -webkit-box-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+  */
+}
+.fixed{
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+/** headroom.js animated styles **/
+.slide{
+  -webkit-transition:all .25s ease-in-out;
+  -moz-transition:all .25s ease-in-out;
+  -o-transition:all .25s ease-in-out;
+  transition:all .25s ease-in-out;
+}
+
+.slide--reset{
+  -webkit-transform:translateY(0);
+  -ms-transform:translateY(0);
+  transform:translateY(0);
+}
+
+.slide--up{
+  -webkit-transform:translateY(-100%);
+  -ms-transform:translateY(-100%);
+  transform:translateY(-100%);
+}
+
+
+
 

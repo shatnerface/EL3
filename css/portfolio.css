@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Portfolio Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+/* Navbar */
+.navbar-right {
+	text-align: center;
+}
+
+.navbar .nav > li > a, .navbar .nav > li {
+	color: #666;
+	text-shadow: none;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li { 
+	color: #0093f1;                      
+	text-shadow: none;
+}
+
+.navbar .nav li a:hover {
+	color: #0093f1;
+}
+
+.dropdown-toggle {
+	text-transform: uppercase;
+}
+
+/*! 
+.dropdown-menu {
+	text-align: center;
+}
+*/
+
+
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #ebebeb;
+}
+
+p {
+	text-align: left;
+}
+
+ul {
+	text-align: left;
+}
+
+
+.page-header {
+	    background-color: #ebebeb;
+	    border-color: #bababa;
+}
+
+
+
+h1 {	
+	color: #0093f1;
+	text-align: left;
+}
+
+h3 {
+	color: #999;
+	text-align: left;
+}
+
+footer {
+    margin: 50px 0;
+}

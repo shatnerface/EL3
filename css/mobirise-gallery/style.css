@@ -11,7 +11,7 @@
 .mbr-gallery .mbr-gallery-item > a {
     position: relative;
     display: block;
-    background: #fff;
+    background: #000000;
     outline: none;
 }
 .mbr-gallery .mbr-gallery-row {
@@ -24,14 +24,14 @@
     transition: .2s opacity ease-in-out;
 }
 .mbr-gallery .mbr-gallery-item > a:hover img {
-    opacity: 0.9;
+    opacity: 0.2;
 }
 .mbr-gallery .mbr-gallery-item .icon {
     position: absolute;
     font-size: 30px;
     top: 50%;
     left: 50%;
-    color: #fff;
+    color: #0093f1;
     opacity: 0;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);

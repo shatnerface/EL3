@@ -1,5 +1,36 @@
 
 
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 36pt;
+  /*  text-transform: uppercase; */
+}
+
+.jumbostuff h2 {
+  font-family: 'Arvo', serif;
+  font-weight: 400italic;
+  text-transform: lowercase;
+  font-size:22pt;
+}
+
+h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
 /* general */
 
 h4 {
@@ -32,6 +63,13 @@ h4 {
 	text-transform: uppercase;
 }
 
+/* Hover dropdowns on NON-hamburger */
+@media (min-width: 768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
 /* 
 .dropdown-menu {
 	text-align: center;
@@ -44,12 +82,14 @@ h4 {
 /* main */
 
 body {
+	/* width: auto;
+	overflow-x: hidden; */
 	color: #999;
 	background-color: #fff;
 }
 
 h2 {
-	color: #0099ff;
+	color: #0099ff; 
 }
 
 a {
@@ -80,16 +120,17 @@ a:hover {
 .jumbotron h5 {
     overflow: hidden;
     text-align: center;
+    color: #999999;
 }
 
 .jumbotron h5:before, h5:after {
-	background-color: #666;
+	background-color: #666666;
     content: "";
     display: inline-block;
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 50%;
+    width: 15%;
 }
 
 .jumbotron h5:before {
@@ -125,6 +166,8 @@ a:hover {
 }
 
 .jumbomap h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 	color:#ffffff;
 	font-size: 50pt;
 	text-shadow: 2px 2px 15px #000000;
@@ -133,6 +176,9 @@ a:hover {
 }
 
 .jumbomap h3 {
+  font-family: 'Arvo', serif;
+  font-weight: 400italic;
+  font-size: 22pt;
 	color: #ffffff;
 	text-shadow: 1px 1px 15px #000000;
 	text-align: center;
@@ -146,108 +192,94 @@ a:hover {
 	color: #0099ff;
     border-color: #bababa;
     text-align: left;
+    font-family: 'Montserrat', sans-serif;  
+    font weight: 400;  
+}
+
+.page-header small {
+  font-family: 'Arvo', serif;
+  font-weight: 400italic;
 }
 
 
 /* main link images */
 
-.darkBG {
-	background: #fff;
-	padding: 30px;
+#altered {
+  background-image: url(http://www.el3.co/image/index/alteredphotos2.jpg); 
+  transition: .25s ease-in-out;
+  border: 0px solid #0099ff;
 }
 
-#link-altered {
-  margin:0 auto;
-  width:250px;
-  height:209px;
-  transition: background-image .4s ease-in-out;
-  background-image:url(../image/home/alteredphotos.jpg);
+#altered:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px; 
 }
 
-#link-altered:hover {
-  background-image:url(../image/home/alteredphotos-h.jpg);
+#logos {
+  background-image: url(http://www.el3.co/image/index/logos2.jpg);
+  transition: .25s ease-in-out;
+  border: 0px solid #0099ff;  
 }
 
-#link-logos {
-  margin:0 auto;
-  width:250px;
-  height:209px;
-  transition: background-image .4s ease-in-out;
-  background-image:url(../image/home/logos.jpg);
+#logos:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
 }
 
-#link-logos:hover {
-  background-image:url(../image/home/logos-h.jpg);
+#illustration {
+  background-image: url(http://www.el3.co/image/index/illustration2.jpg);
+  transition: .25s ease-in-out;  
+  border: 0px solid #0099ff;
 }
 
-#link-illustration {
-  margin:0 auto;
-  width:250px;
-  height:209px;
-  transition: background-image .4s ease-in-out;
-  background-image:url(../image/home/illustration.jpg);
+#illustration a {
+  line-height: 97%;
 }
 
-#link-illustration:hover {
-  background-image:url(../image/home/illustration-h.jpg);
+#illustration:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
 }
 
-#link-photography {
-  margin:0 auto;
-  width:250px;
-  height:209px;
-  transition: background-image .4s ease-in-out;
-  background-image:url(../image/home/photography.jpg);
+#photography {
+  background-image: url(http://www.el3.co/image/index/photo2.jpg);
+  transition: .25s ease-in-out;
+  border: 0px solid #0099ff;
 }
 
-#link-photography:hover {
-  background-image:url(../image/home/photography-h.jpg);
+#photography:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
 }
 
-#link-shapes {
-  margin:0 auto;
-  width:250px;
-  height:209px;
-  transition: background-image .4s ease-in-out;
-  background-image:url(../image/home/customshapes.jpg);
+#shapes {
+  background-image: url(http://www.el3.co/image/index/customshapes2.jpg);
+  transition: .25s ease-in-out;  
+  border: 0px solid #0099ff;
 }
 
-#link-shapes:hover {
-  background-image:url(../image/home/customshapes-h.jpg);
+#shapes:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
 }
 
-#link-menus {
-  margin:0 auto;
-  width:250px;
-  height:209px;
-  transition: background-image .4s ease-in-out;
-  background-image:url(../image/home/menus.jpg);
+#menus {
+  background-image: url(http://www.el3.co/image/index/menus2.jpg);
+  transition: .25s ease-in-out;
+  border: 0px solid #0099ff;
 }
 
-#link-menus:hover {
-  background-image:url(../image/home/menus-h.jpg);
+#menus:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
 }
 
-
-/* When I tried to do the text over the images
-
-.caption p {
-	font-size: 28px;
-    position: absolute;
-    top: 45%;
-    left: 0;
-    width: 100%;
-    color: #ffffff;
-    padding: 0 100px 0 100px;
-}
- 
-.caption p:hover {
-	color: yellow;
-	text-shadow: 3px 3px 0px #333; */
-/*	color: #000;
-	font-size: 26pt;
-	transition: .6s;  
-}      */
 
 
 /* demonstrate and fine print */
@@ -350,6 +382,14 @@ nav#footer p{
   transform:translateY(-100%);
 }
 
-
-
+/*
+@media screen and (min-width: 400px) {
+   .text1 {
+      text-align: left;
+   }
+}
+p{
+   text-align: center;
+}
+*/
 

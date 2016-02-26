@@ -22,6 +22,12 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
+    <!-- Headrom JS -->
+    <script type="text/javascript" src="js/headroom.min.js"></script>    
+
+    <link href='https://fonts.googleapis.com/css?family=Arvo:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
+
     <!-- MINE -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
     <link href="css/portfolio.css" rel="stylesheet">
@@ -40,56 +46,55 @@
 <body>
 
     <!-- Fixed navbar -->
-    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <header id="header" class="header fixed">
+      <div class="wrap">
+        <div class="clearfix" style="width:100%;">
+          <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
 
-      <div class="container">
+            <div class="container">
 
-        <div class="navbar-header">
-          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+              <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
 
-          <a class="navbar-brand" href="#">
-            <img src="image/el3main-clean-24px.png" alt="EL3 Logo">
-          </a>
+                <a class="navbar-brand" href="http://www.el3.co">
+                  <img src="image/el3main-clean-24px.png" alt="EL3 Logo">
+                </a>
+              </div>
 
+              <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">portfolio</a>
+                      <ul class="dropdown-menu">
+                          <li><a href="http://www.el3.co/altered.html">Altered Photos</a></li>
+                          <li><a href="http://www.el3.co/logo.html">Logos</a></li>
+                          <li><a href="http://www.el3.co/illustration.html">Graphic Illustration</a></li>
+                          <li><a href="http://www.el3.co/photo.html">Photography</a></li>
+                          <li><a href="http://www.el3.co/customshapes.html">Custom Shapes</a></li>
+                          <li><a href="http://www.el3.co/menus.html">Menus</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">info</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.el3.co/about.html">About</a></li>
+                        <li><a href="http://www.el3.co/contact.html">Contact</a></li>
+                        <li><a href="http://www.el3.co/art.html">Other Art</a></li>
+                        <li><a href="http://www.el3.co/blog.html">Blog</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </nav>
         </div>
-
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-
-          <ul class="nav navbar-nav navbar-right">
-
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">portfolio</a>
-                <ul class="dropdown-menu">
-                    <li><a href="http://www.el3.co/altered.html">Altered Photos</a></li>
-                    <li><a href="http://www.el3.co/logo.html">Logos</a></li>
-                    <li><a href="http://www.el3.co/illustration.html">Graphic Illustration</a></li>
-                    <li><a href="http://www.el3.co/photo.html">Photography</a></li>
-                    <li><a href="http://www.el3.co/customshapes.html">Custom Shapes</a></li>
-                    <li><a href="http://www.el3.co/menus.html">Menus</a></li>
-                </ul>
-            </li>
-            
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">info</a>
-                <ul class="dropdown-menu">
-                    <li><a href="http://www.el3.co/about.html">About</a></li>
-                    <li><a href="http://www.el3.co/contact.html">Contact</a></li>
-                    <li><a href="http://www.el3.co/art.html">Other Art</a></li>
-                    <li><a href="http://www.el3.co/blog.html">Blog</a></li>
-                </ul>
-            </li>
-
-          </ul>
-
-        </div><!--/.nav-collapse -->
-
       </div>
-    </nav>
+    </header>
 
 
     <!-- Page Content -->
@@ -99,9 +104,9 @@
         <!-- Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Illustration
+                <h2 class="page-header">Illustration
                     <small>of Various Methods</small>
-                </h1>
+                </h2>
             </div>
         </div>
         
@@ -272,6 +277,24 @@
 	        </div>
 	    </div>
 	</nav>
+
+
+    <script type="text/javascript">
+      var header = document.querySelector("#header");
+
+      new Headroom(header, {
+        tolerance: {
+          down : 2,
+          up : 5
+        },
+        offset : 100,
+        classes: {
+          initial: "slide",
+          pinned: "slide--reset",
+          unpinned: "slide--up"
+        }
+      }).init();
+      </script>
 
 
     <!-- jQuery -->

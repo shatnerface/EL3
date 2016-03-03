@@ -34,33 +34,38 @@ a {
 /* general */
 
 h4 {
-	font-size: 18pt;
-	color: #999999;
+  font-size: 18pt;
+  color: #999999;
 }
 
 
 /* navbar */
 
+.navbar-brand {
+  position: absolute;
+  top: 6px;
+}
+
 .navbar-right {
-	text-align: center;
+  text-align: center;
 }
 
 .navbar .nav > li > a, .navbar .nav > li {
-	color: #666;
-	text-shadow: none;
+  color: #666;
+  text-shadow: none;
 }
 
 .navbar .nav > li > a:hover, .navbar .nav > li { 
-	color: #0099ff;                      
-	text-shadow: none;
+  color: #0099ff;                      
+  text-shadow: none;
 }
 
 .navbar .nav li a:hover {
-	color: #0099ff;
+  color: #0099ff;
 }
 
 .dropdown-toggle {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /* Hover dropdowns on NON-hamburger */
@@ -70,9 +75,15 @@ h4 {
   }
 }
 
+@media (max-width: 768px) {
+  .navbar-brand {
+    left: -4px;
+  }
+}
+
 /* 
 .dropdown-menu {
-	text-align: center;
+  text-align: center;
 }
 */
 
@@ -82,22 +93,22 @@ h4 {
 /* main */
 
 body {
-	/* width: auto;
-	overflow-x: hidden; */
-	color: #999;
-	background-color: #fff;
+  /* width: auto;
+  overflow-x: hidden; */
+  color: #999;
+  background-color: #fff;
 }
 
 h2 {
-	color: #0099ff; 
+  color: #0099ff; 
 }
 
 a {
-	color: #0ab9ab;
+  color: #0ab9ab;
 }
 
 a:hover {
-	color: #000;
+  color: #000;
 }
 
 
@@ -105,14 +116,14 @@ a:hover {
 /* jumbotron */
 
 .jumbotron {
-	background-image: url(http://el3.co/image/jumbotron2.jpg);
-	background-size: cover;
-	width: 100%;
+  background-image: url(http://el3.co/image/jumbotron2.jpg);
+  background-size: cover;
+  width: 100%;
 }
 
 .jumbotron h1 {
-/*	padding-top: 50px;   */
-	color: #fff;
+/*  padding-top: 50px;   */
+  color: #fff;
 }
 
 
@@ -124,7 +135,7 @@ a:hover {
 }
 
 .jumbotron h5:before, h5:after {
-	background-color: #666666;
+  background-color: #666666;
     content: "";
     display: inline-block;
     height: 1px;
@@ -148,7 +159,7 @@ a:hover {
 
 
 
-/*	jumbostuff */
+/*  jumbostuff */
 
 .jumbostuff {
   padding: 40px 15px;
@@ -159,29 +170,29 @@ a:hover {
 /*  jumbo for contact */
 
 .jumbomap {
-	background-image: url(http://el3.co/image/jumbotron-contact-b.jpg);
-	background-size: cover;
-	width: 100%;
+  background-image: url(http://el3.co/image/jumbotron-contact-b.jpg);
+  background-size: cover;
+  width: 100%;
 
 }
 
 .jumbomap h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-	color:#ffffff;
-	font-size: 50pt;
-	text-shadow: 2px 2px 15px #000000;
-	text-align: center;
-	margin: 10px;
+  color:#ffffff;
+  font-size: 50pt;
+  text-shadow: 2px 2px 15px #000000;
+  text-align: center;
+  margin: 10px;
 }
 
 .jumbomap h3 {
   font-family: 'Arvo', serif;
   font-weight: 400italic;
   font-size: 22pt;
-	color: #ffffff;
-	text-shadow: 1px 1px 15px #000000;
-	text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 15px #000000;
+  text-align: center;
 }
 
 
@@ -189,7 +200,7 @@ a:hover {
 /* heading */
 
 .page-header {
-	color: #0099ff;
+  color: #0099ff;
     border-color: #bababa;
     text-align: left;
     font-family: 'Montserrat', sans-serif;  
@@ -285,19 +296,19 @@ a:hover {
 /* demonstrate and fine print */
 
 .demonstrate {
-	color: #333;
-	text-align: center;
+  color: #333;
+  text-align: center;
 }
 
 .container {
-	text-align: center;
-	color: #000;
-	padding: 10px;
+  text-align: center;
+  color: #000;
+  padding: 10px;
 }
 
 p.fine {
-	font-size: 10pt;
-	color: #939598;
+  font-size: 10pt;
+  color: #939598;
 }
 
 
@@ -305,38 +316,38 @@ p.fine {
 /* Footer */
 
 nav#footer{
-	background: #222222;
-	color: #ffffff;
-	padding: 20px 0 15px 0;
+  background: #222222;
+  color: #ffffff;
+  padding: 20px 0 15px 0;
 }
 
 nav#footer .fnav{ vertical-align: middle;}
 ul.footer-social li{
-	display: inline-block;
-	margin-right: 5px;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 nav#footer p{
-	font-size: 12px;
-	margin-top: 10px;
-	color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #999;
 }
 
 #footer i.fa {
-	height: 30px;
-	width: 30px;
-	border: 2px solid #8c8c8c;
-	font-size: 20px;
-	padding: 4px 5px;
-	border-radius: 50%;
-	color: #8c8c8c;
-	transition: all 0.6s;
+  height: 30px;
+  width: 30px;
+  border: 2px solid #8c8c8c;
+  font-size: 20px;
+  padding: 4px 5px;
+  border-radius: 50%;
+  color: #8c8c8c;
+  transition: all 0.6s;
 }
 
 #footer i.fa:hover{
-	background: #0099ff;
-	border-color: #0099ff;
-	color: #fff;
+  background: #0099ff;
+  border-color: #0099ff;
+  color: #fff;
 }
 
 
@@ -392,4 +403,3 @@ p{
    text-align: center;
 }
 */
-

@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,8 +12,8 @@
 
     <title>Home of EL3</title>
 
-  	<!-- Favicons  -->
-  	<link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <!-- Favicons  -->
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="image/apple-touch-icon.png"/>
 
     <!-- Bootstrap core CSS -->
@@ -59,7 +60,40 @@
                 </button>
 
                 <a class="navbar-brand" href="http://www.el3.co">
-                  <img src="image/el3main-clean-24px.png" alt="EL3 Logo">
+                  <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                       width="45px" height="30px" viewBox="0 0 72 50.4" enable-background="new 0 0 72 50.4" xml:space="preserve">
+                    <style type="text/css">
+                      .st0{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-miterlimit:10;
+                              stroke-dasharray: 1000;
+                              stroke-dashoffset: 1000;
+                              animation: dash 5s linear forwards ;
+                            }
+                      .st1{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+                              stroke-dasharray: 1000;
+                              stroke-dashoffset: 1000;
+                              animation: dash 25s linear forwards ;
+                              animation-delay: .85s;
+                            }
+                      .st2{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+                              stroke-dasharray: 1000;
+                              stroke-dashoffset: 1000;
+                              animation: dash 25s linear forwards ;
+                              animation-delay: .85s;          
+                            }        
+
+                      @keyframes dash {
+                     
+                      to {
+                        stroke-dashoffset: 0;
+                      }
+
+                    </style>
+                    <g>
+                    <polyline class="st0" fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" points="25.5,43.5 7.125,43.5 7.125,6.625 
+                      36,6.625 36,43.5 64.875,43.5 64.875,6.625 46.5,6.625 "/>
+                    <line class="st1" fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" x1="7.125" y1="25.062" x2="25.5" y2="25.062"/>
+                    <line class="st2" fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" x1="64.875" y1="25.062" x2="46.5" y2="25.062"/>
+                  </svg>
                 </a>
               </div>
 
@@ -106,53 +140,51 @@
 
     <div class="container">
 
-        <!-- Heading -->
+      <!-- Heading -->
+      <div class="row">
+          <div class="col-lg-12">
+              <h2 class="page-header">Portfolio Categories</h2>
+          </div>
+      </div>
+
+      <div class="demonstrate">
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Categories</h2>
-            </div>
+          <div class="darkBG col-lg-4 col-md-6 col-sm-6 col-xs-12" >
+            <section class="p" id="altered" style="cursor: pointer;" onclick="window.location='http://www.el3.co/altered.html';">
+              <a href="http://www.el3.co/altered.html" data-cont="Altered Photos">Altered Photos</a>
+            </section>
+          </div>
+          <div class="darkBG col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <section class="p" id="logos" style="cursor: pointer;" onclick="window.location='http://www.el3.co/logo.html';">
+              <a href="http://www.el3.co/logo.html" data-cont="Logos">Logos</a>
+            </section>
+          </div>
+          <div class="darkBG col-lg-4 col-md-6 col-sm-6 col-xs-12" >
+            <section class="p" id="illustration" style="cursor: pointer;" onclick="window.location='http://www.el3.co/illustration.html';">
+              <a href="http://www.el3.co/illustration.html" data-cont="Graphic Illustration">Graphic Illustration</a>
+            </section>
+          </div>
+          <div class="darkBG col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <section class="p" id="photography" style="cursor: pointer;" onclick="window.location='http://www.el3.co/photo.html';">
+              <a href="http://www.el3.co/photo.html" data-cont="Photography">Photography</a>
+            </section>
+          </div>
+          <div class="darkBG col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <section class="p" id="shapes" style="cursor: pointer;" onclick="window.location='http://www.el3.co/customshapes.html';">
+              <a href="http://www.el3.co/customshapes.html" data-cont="Custom Shapes">Custom Shapes</a>
+            </section>
+          </div>
+          <div class="darkBG col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <section class="p" id="menus" style="cursor: pointer;" onclick="window.location='http://www.el3.co/menus.html';">
+              <a href="http://www.el3.co/menus.html" data-cont="Menus">Menus</a>
+            </section>
+          </div>
         </div>
-        
+      </div>  
+
     </div>
 
-
-	<div class="demonstrate">
-		<div class="row">
-      <div class="darkBG col-md-4 col-sm-6 col-xs-12" >
-        <section class="p" id="altered" style="cursor: pointer;" onclick="window.location='http://www.el3.co/altered.html';">
-          <a href="http://www.el3.co/altered.html" data-cont="Altered Photos">Altered Photos</a>
-        </section>
-      </div>
-      <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <section class="p" id="logos" style="cursor: pointer;" onclick="window.location='http://www.el3.co/logo.html';">
-          <a href="http://www.el3.co/logo.html" data-cont="Logos">Logos</a>
-        </section>
-      </div>
-      <div class="darkBG col-md-4 col-sm-6 col-xs-12" >
-        <section class="p" id="illustration" style="cursor: pointer;" onclick="window.location='http://www.el3.co/illustration.html';">
-          <a href="http://www.el3.co/illustration.html" data-cont="Graphic Illustration">Graphic Illustration</a>
-        </section>
-      </div>
-      <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <section class="p" id="photography" style="cursor: pointer;" onclick="window.location='http://www.el3.co/photo.html';">
-          <a href="http://www.el3.co/photo.html" data-cont="Photography">Photography</a>
-        </section>
-      </div>
-      <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <section class="p" id="shapes" style="cursor: pointer;" onclick="window.location='http://www.el3.co/customshapes.html';">
-          <a href="http://www.el3.co/customshapes.html" data-cont="Custom Shapes">Custom Shapes</a>
-        </section>
-      </div>
-      <div class="darkBG col-md-4 col-sm-6 col-xs-12">
-        <section class="p" id="menus" style="cursor: pointer;" onclick="window.location='http://www.el3.co/menus.html';">
-          <a href="http://www.el3.co/menus.html" data-cont="Menus">Menus</a>
-        </section>
-      </div>
-		</div>
-	</div>	
-
-
-	<br><br>
+  <br><br>
 
 
   <!-- /. footer stuff -->

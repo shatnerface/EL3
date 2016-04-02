@@ -1,0 +1,58 @@
+
+section {
+  font-family: 'Montserrat', sans-serif;
+  width: 333px;
+  height: 263px;
+  border-radius: 20px;
+  position: relative;
+  background-position: center center;
+  overflow: hidden;
+  margin: 30px auto;
+}
+section a {
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 22pt;
+}
+
+section.p a {
+  width: 242px;
+  height: 100px;
+/*  line-height: 94px;  */
+  line-height: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -121px;
+  margin-top: -25px;
+  z-index: 10;
+  color: #fff;
+  text-decoration: none;
+}
+
+section.p a:before,
+section.p a:after {
+  content: attr(data-cont);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+section.p a:before {
+  color: #0099ff;
+}
+section.p a:after {
+  color: #0099ff;
+}
+
+/*
+section.p a:hover:before {
+  text-shadow: 2px 2px 3px #000000;
+}
+*/
+

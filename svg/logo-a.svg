@@ -1,0 +1,37 @@
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="45px" height="30px" viewBox="0 0 72 50.4" enable-background="new 0 0 72 50.4" xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:none;stroke:#222222;stroke-width:12;stroke-linecap:miter;stroke-miterlimit:10;
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: dash 5s linear forwards ;
+            animation-delay: .5s;
+          }
+    .st1{fill:none;stroke:#222222;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: dash 25s linear forwards ;
+            animation-delay: 1.35s;
+          }
+    .st2{fill:none;stroke:#222222;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: dash 25s linear forwards ;
+            animation-delay: 1.35s;          
+          }   
+     
+
+    @keyframes dash {
+   
+    to {
+      stroke-dashoffset: 0;
+    }
+
+  </style>
+  <g>
+  <polyline class="st0" fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" points="25.5,43.5 7.125,43.5 7.125,6.625 
+    36,6.625 36,43.5 64.875,43.5 64.875,6.625 46.5,6.625 "/>
+  <line class="st1" fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" x1="7.125" y1="25.062" x2="25.5" y2="25.062"/>
+  <line class="st2" fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" x1="64.875" y1="25.062" x2="46.5" y2="25.062"/>
+  </g>
+</svg>

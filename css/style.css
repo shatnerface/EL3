@@ -5,7 +5,6 @@ html, body {
   overflow-x: hidden !important;
 }
 
-
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -14,10 +13,11 @@ h1 {
 }
 
 .jumbostuff h2 {
-  font-family: 'Arvo', serif;
-  font-weight: 400italic;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
   text-transform: lowercase;
   font-size:22pt;
+  /* letter-spacing: 1px; */
 }
 
 h4, h5 {
@@ -51,7 +51,7 @@ h4 {
 }
 
 .navbar .nav > li > a, .navbar .nav > li {
-  color: #666;
+  color: #666666;
   text-shadow: none;
 }
 
@@ -187,8 +187,8 @@ a:hover {
 }
 
 .jumbomap h3 {
-  font-family: 'Arvo', serif;
-  font-weight: 400italic;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
   font-size: 22pt;
   color: #ffffff;
   text-shadow: 1px 1px 15px #000000;
@@ -208,8 +208,8 @@ a:hover {
 }
 
 .page-header small {
-  font-family: 'Arvo', serif;
-  font-weight: 400italic;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 
@@ -225,7 +225,17 @@ a:hover {
   box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
   border: 4px solid #0099ff;
   border-radius: 20px; 
+  text-shadow: 2px 2px 3px #000000;
 }
+
+#altered:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
 
 #logos {
   background-image: url(http://www.el3.co/image/index/logos2.jpg);
@@ -237,7 +247,17 @@ a:hover {
   box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
   border: 4px solid #0099ff;
   border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
 }
+
+#logos:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
 
 #illustration {
   background-image: url(http://www.el3.co/image/index/illustration2.jpg);
@@ -253,7 +273,17 @@ a:hover {
   box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
   border: 4px solid #0099ff;
   border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
 }
+
+#illustration:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
 
 #photography {
   background-image: url(http://www.el3.co/image/index/photo2.jpg);
@@ -265,7 +295,17 @@ a:hover {
   box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
   border: 4px solid #0099ff;
   border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
 }
+
+#photography:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
 
 #shapes {
   background-image: url(http://www.el3.co/image/index/customshapes2.jpg);
@@ -277,7 +317,17 @@ a:hover {
   box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
   border: 4px solid #0099ff;
   border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
 }
+
+#shapes:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
 
 #menus {
   background-image: url(http://www.el3.co/image/index/menus2.jpg);
@@ -289,8 +339,26 @@ a:hover {
   box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
   border: 4px solid #0099ff;
   border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
 }
 
+#menus:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
+
+.link-svg {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-left: -125px;
+  margin-top: 0px;
+  opacity: 0;
+}
 
 
 /* demonstrate and fine print */
@@ -403,3 +471,28 @@ p{
    text-align: center;
 }
 */
+
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } };
+}
+
+

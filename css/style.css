@@ -46,6 +46,18 @@ h4 {
   top: 6px;
 }
 
+/* hover the svg's
+.Layer_2:hover .st0 {
+    stroke: #0099ff;
+        }
+.Layer_2:hover .st1 {
+    stroke: #0099ff;
+        }
+.Layer_2:hover .st2 {
+    stroke: #0099ff;
+        }
+*/
+
 .navbar-right {
   text-align: center;
 }
@@ -92,13 +104,6 @@ h4 {
 
 /* main */
 
-body {
-  /* width: auto;
-  overflow-x: hidden; */
-  color: #999;
-  background-color: #fff;
-}
-
 h2 {
   color: #0099ff; 
 }
@@ -129,32 +134,39 @@ a:hover {
 
 /* horizontal rule around text */
 .jumbotron h5 {
-    overflow: hidden;
-    text-align: center;
-    color: #999999;
+  overflow: hidden;
+  text-align: center;
+  color: #999999;
 }
 
 .jumbotron h5:before, h5:after {
   background-color: #666666;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 15%;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 23%;
 }
 
 .jumbotron h5:before {
-    right: 0.5em;
-    margin-left: -50%;
+  right: 0.5em;
+  margin-left: -50%;
 }
 
 .jumbotron h5:after {
-    left: 0.5em;
-    margin-right: -50%;
+  left: 0.5em;
+  margin-right: -50%;
 }
 
-/* horizontal rule around text end */
+@media (max-width: 500px) {
+  .jumbotron h5 {
+    color: white;
+  }
+  .jumbotron h5:before, h5:after {
+  background-color: white;
+  }
+}
 
 
 
@@ -163,35 +175,6 @@ a:hover {
 
 .jumbostuff {
   padding: 40px 15px;
-  text-align: center;
-}
-
-
-/*  jumbo for contact */
-
-.jumbomap {
-  background-image: url(http://el3.co/image/jumbotron-contact-b.jpg);
-  background-size: cover;
-  width: 100%;
-
-}
-
-.jumbomap h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  color:#ffffff;
-  font-size: 50pt;
-  text-shadow: 2px 2px 15px #000000;
-  text-align: center;
-  margin: 10px;
-}
-
-.jumbomap h3 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
-  font-size: 22pt;
-  color: #ffffff;
-  text-shadow: 1px 1px 15px #000000;
   text-align: center;
 }
 
@@ -380,6 +363,34 @@ p.fine {
 }
 
 
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 12px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  font-size: 16pt;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  /* box-shadow: 2px 2px 30px #000000; */
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #0099ff;
+  border-color: #0099ff;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
 
 /* Footer */
 
@@ -418,6 +429,23 @@ nav#footer p{
   color: #fff;
 }
 
+@media (max-width: 500px) {
+  nav#footer .pull-left {
+    float: none !important;
+  }
+  nav#footer .pull-right {
+    float: none !important;
+  }
+  nav#footer .footer-social {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  nav#footer .pull-left p {
+    text-align: center;
+  }
+}
+
 
 
 /** disappearing nav **/
@@ -443,10 +471,10 @@ nav#footer p{
 
 /** headroom.js animated styles **/
 .slide{
-  -webkit-transition:all .25s ease-in-out;
-  -moz-transition:all .25s ease-in-out;
-  -o-transition:all .25s ease-in-out;
-  transition:all .25s ease-in-out;
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
 }
 
 .slide--reset{
@@ -494,5 +522,13 @@ p{
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } };
 }
+
+
+
+/* The Don
+.nav .dropdown-toggle {
+  pointer-events: none;
+}
+*/
 
 

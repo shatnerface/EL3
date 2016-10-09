@@ -1,1 +1,39 @@
+
 #success_message{ display: none;}
+
+
+/*  jumbo for contact */
+
+.jumbomap {
+  background-image: url(http://el3.co/image/jumbotron-contact-b3.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.jumbomap h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color:#ffffff;
+  font-size: 50pt;
+  text-shadow: 2px 2px 15px #000000;
+  text-align: center;
+  margin: 10px;
+}
+
+.jumbomap h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 22pt;
+  color: #ffffff;
+  text-shadow: 1px 1px 15px #000000;
+  text-align: center;
+}
+
+
+
+@media (max-width: 600px) {
+  .jumbomap {
+    background-position: center;
+  }
+}
+

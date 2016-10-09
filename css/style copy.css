@@ -1,0 +1,556 @@
+
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 36pt;
+  /*  text-transform: uppercase; */
+}
+
+.jumbostuff h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size:22pt;
+  /* letter-spacing: 1px; */
+}
+
+h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+/* general */
+
+h4 {
+  font-size: 18pt;
+  color: #999999;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+  position: absolute;
+  top: 6px;
+}
+
+/* hover the svg's
+.Layer_2:hover .st0 {
+    stroke: #0099ff;
+        }
+.Layer_2:hover .st1 {
+    stroke: #0099ff;
+        }
+.Layer_2:hover .st2 {
+    stroke: #0099ff;
+        }
+*/
+
+.navbar-right {
+  text-align: center;
+}
+
+.navbar .nav > li > a, .navbar .nav > li {
+  color: #666666;
+  text-shadow: none;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li { 
+  color: #0099ff;                      
+  text-shadow: none;
+}
+
+.navbar .nav li a:hover {
+  color: #0099ff;
+}
+
+.dropdown-toggle {
+  text-transform: uppercase;
+}
+
+/* Hover dropdowns on NON-hamburger */
+@media (min-width: 768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    left: -4px;
+  }
+}
+
+/* 
+.dropdown-menu {
+  text-align: center;
+}
+*/
+
+
+
+
+/* main */
+
+h2 {
+  color: #0099ff; 
+}
+
+a {
+  color: #0ab9ab;
+}
+
+a:hover {
+  color: #000;
+}
+
+
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: url(http://el3.co/image/jumbotron2.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.jumbotron h1 {
+/*  padding-top: 50px;   */
+  color: #fff;
+}
+
+
+/* horizontal rule around text */
+.jumbotron h5 {
+    overflow: hidden;
+    text-align: center;
+    color: #999999;
+}
+
+.jumbotron h5:before, h5:after {
+  background-color: #666666;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%;
+}
+
+.jumbotron h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.jumbotron h5:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/* horizontal rule around text end */
+
+
+
+
+/*  jumbostuff */
+
+.jumbostuff {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+
+/*  jumbo for contact */
+
+.jumbomap {
+  background-image: url(http://el3.co/image/jumbotron-contact-b3.jpg);
+  background-size: cover;
+  width: 100%;
+
+}
+
+.jumbomap h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color:#ffffff;
+  font-size: 50pt;
+  text-shadow: 2px 2px 15px #000000;
+  text-align: center;
+  margin: 10px;
+}
+
+.jumbomap h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 22pt;
+  color: #ffffff;
+  text-shadow: 1px 1px 15px #000000;
+  text-align: center;
+}
+
+
+
+/* heading */
+
+.page-header {
+  color: #0099ff;
+    border-color: #bababa;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;  
+    font weight: 400;  
+}
+
+.page-header small {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+
+/* main link images */
+
+#altered {
+  background-image: url(http://www.el3.co/image/index/alteredphotos2.jpg); 
+  transition: .25s ease-in-out;
+  border: 0px solid #0099ff;
+}
+
+#altered:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px; 
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#altered:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
+
+#logos {
+  background-image: url(http://www.el3.co/image/index/logos2.jpg);
+  transition: .25s ease-in-out;
+  border: 0px solid #0099ff;  
+}
+
+#logos:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#logos:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
+
+#illustration {
+  background-image: url(http://www.el3.co/image/index/illustration2.jpg);
+  transition: .25s ease-in-out;  
+  border: 0px solid #0099ff;
+}
+
+#illustration a {
+  line-height: 97%;
+}
+
+#illustration:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#illustration:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
+
+#photography {
+  background-image: url(http://www.el3.co/image/index/photo2.jpg);
+  transition: .25s ease-in-out;
+  border: 0px solid #0099ff;
+}
+
+#photography:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#photography:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
+
+#shapes {
+  background-image: url(http://www.el3.co/image/index/customshapes2.jpg);
+  transition: .25s ease-in-out;  
+  border: 0px solid #0099ff;
+}
+
+#shapes:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#shapes:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
+
+#menus {
+  background-image: url(http://www.el3.co/image/index/menus2.jpg);
+  transition: .25s ease-in-out;
+  border: 0px solid #0099ff;
+}
+
+#menus:hover {
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.65) inset;
+  border: 4px solid #0099ff;
+  border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#menus:hover .link-svg {
+  -webkit-animation: spin 6s linear infinite;
+  -moz-animation: spin 6s linear infinite;
+  -webkit-animation: fadein 1.5s ease-in;
+  -moz-animation: fadein 1.5s ease-in;
+  animation: fadein 1.5s ease-in, spin 6s linear infinite;
+  opacity: 1;
+  }
+
+.link-svg {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-left: -125px;
+  margin-top: 0px;
+  opacity: 0;
+}
+
+
+/* demonstrate and fine print */
+
+.demonstrate {
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  color: #000;
+  padding: 10px;
+}
+
+p.fine {
+  font-size: 10pt;
+  color: #939598;
+}
+
+
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 12px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  font-size: 16pt;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  /* box-shadow: 2px 2px 30px #000000; */
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #0099ff;
+  border-color: #0099ff;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+
+/* Footer */
+
+nav#footer{
+  background: #222222;
+  color: #ffffff;
+  padding: 20px 0 15px 0;
+}
+
+nav#footer .fnav{ vertical-align: middle;}
+ul.footer-social li{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+nav#footer p{
+  font-size: 12px;
+  margin-top: 10px;
+  color: #999;
+}
+
+#footer i.fa {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #8c8c8c;
+  font-size: 20px;
+  padding: 4px 5px;
+  border-radius: 50%;
+  color: #8c8c8c;
+  transition: all 0.6s;
+}
+
+#footer i.fa:hover{
+  background: #0099ff;
+  border-color: #0099ff;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  nav#footer .pull-left {
+    float: none !important;
+  }
+  nav#footer .pull-right {
+    float: none !important;
+  }
+  nav#footer .footer-social {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  nav#footer .pull-left p {
+    text-align: center;
+  }
+}
+
+
+
+/** disappearing nav **/
+
+#header {
+  display: block;
+  width: 100%;
+  height: 71px;
+  background: white;
+  /* remove shadow 
+  -webkit-box-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+  */
+}
+.fixed{
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+/** headroom.js animated styles **/
+.slide{
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+}
+
+.slide--reset{
+  -webkit-transform:translateY(0);
+  -ms-transform:translateY(0);
+  transform:translateY(0);
+}
+
+.slide--up{
+  -webkit-transform:translateY(-100%);
+  -ms-transform:translateY(-100%);
+  transform:translateY(-100%);
+}
+
+/*
+@media screen and (min-width: 400px) {
+   .text1 {
+      text-align: left;
+   }
+}
+p{
+   text-align: center;
+}
+*/
+
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } };
+}
+
+
+
+/* The Don
+.nav .dropdown-toggle {
+  pointer-events: none;
+}
+*/
+
+

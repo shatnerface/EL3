@@ -1,0 +1,72 @@
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="72px" height="50.4px" viewBox="0 0 72 50.4" enable-background="new 0 0 72 50.4" xml:space="preserve">
+<style type="text/css">
+  .st0{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-miterlimit:10;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 5s ease-in-out forwards ;
+          animation-delay: 1.5s;
+        }
+  .st1{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 5s ease-in-out forwards;
+          animation-delay: 1.6s;
+        }  
+  .st2{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 5s ease-in-out forwards;  
+          animation-delay: 1.7s;     
+        }  
+  .st3{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 5s ease-in-out forwards ;  
+          animation-delay: 1.9s;     
+        } 
+  .st4{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 5s ease-in-out forwards;  
+          animation-delay: 2s;     
+        }
+  .st5{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 5s ease-in-out forwards ;  
+          animation-delay: 2.1s;     
+        } 
+  .st6{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 5s ease-in-out forwards ;  
+          animation-delay: 2.2s;     
+        } 
+  .st7{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:miter;stroke-linejoin:round;stroke-miterlimit:10;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 5s linear forwards;  
+          animation-delay: 3s;     
+        }
+
+  @keyframes dash {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+</style>
+
+<line class="st2" fill="none" stroke="#222222" stroke-width="12" stroke-miterlimit="10" x1="1.146" y1="6.625" x2="41.75" y2="6.625"/>
+<line class="st1" fill="none" stroke="#222222" stroke-width="12" stroke-miterlimit="10" x1="1.146" y1="25.062" x2="25.5" y2="25.062"/>
+<line class="st0" fill="none" stroke="#222222" stroke-width="12" stroke-miterlimit="10" x1="1.146" y1="43.5" x2="25.5" y2="43.5"/>
+<line class="st3" fill="none" stroke="#222222" stroke-width="12" stroke-miterlimit="10" x1="36" y1="0.612" x2="36" y2="49.512"/>
+<line class="st4" fill="none" stroke="#222222" stroke-width="12" stroke-miterlimit="10" x1="30.125" y1="43.5" x2="70.854" y2="43.5"/>
+<line class="st5" fill="none" stroke="#222222" stroke-width="12" stroke-miterlimit="10" x1="70.854" y1="25.062" x2="46.5" y2="25.062"/>
+<line class="st6" fill="none" stroke="#222222" stroke-width="12" stroke-miterlimit="10" x1="70.854" y1="6.625" x2="46.5" y2="6.625"/>
+
+<line class="st7" fill="none" stroke="#222222" stroke-width="12" stroke-miterlimit="10" x1="7.125" y1="49.512" x2="7.125" y2="0.612"/>
+<line class="st7" fill="none" stroke="#222222" stroke-width="12" stroke-miterlimit="10" x1="64.875" y1="49.512" x2="64.875" y2="0.612"/>
+
+</svg>
